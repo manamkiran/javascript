@@ -2,4 +2,6 @@
 
 import test from "./test";
 
-console.log(test);
+const val = "Kiran"
+
+console.log(`I imported this value ${test} from test.js and using const ${val}`);
