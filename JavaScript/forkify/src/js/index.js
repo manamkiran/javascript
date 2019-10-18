@@ -1,7 +1,8 @@
 // Global app controller
+//b472319e24f984eee67c8790b2adddef
 
-import test from "./test";
+import axios from 'axios'
 
-const val = "Kiran"
+const key = "b472319e24f984eee67c8790b2adddef"
 
 console.log(`I imported this value ${test} from test.js and using const ${val}`);
