@@ -6,7 +6,8 @@ export const elements = {
     searchForm : document.querySelector('.search'),
     searchInput : document.querySelector('.search__field'),
     searchResultInput : document.querySelector('.results__list'),
-    searchResult : document.querySelector('.results')
+    searchResult : document.querySelector('.results'),
+    searchResultPages : document.querySelector('.results__pages')
 }
 
 export const renderLoader = parent => {
@@ -19,7 +20,6 @@ export const renderLoader = parent => {
     `;
 
     parent.insertAdjacentHTML('afterbegin',loader);
-    console.log(parent);
 }
 
 export const clearLoader = () => {
